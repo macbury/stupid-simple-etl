@@ -10,7 +10,7 @@ ruby run.rb
 
 ## Example code
 
-```
+```ruby
 Pipeline.pipe(CsvReader.new('./data/test.csv'))
         .pipe(RejectHeader)
         .pipe(Validator)
